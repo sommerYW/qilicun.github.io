@@ -12,12 +12,13 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- about_me
 - category
 - tag
 - tagcloud
 - archive
 - recent_posts
-- links
+- duoshuo_recent_comments
 
 # Miscellaneous
 google_analytics:
@@ -35,7 +36,7 @@ toc:
 go_top: true
 
 # duoshuo
-duoshuo_shortname:
+duoshuo_shortname: qilicun
 
 # baidu share
 baidushare: true
@@ -51,7 +52,7 @@ about_me:
   gravatar: a@abc.com
   avatar: /images/github.jpg
   texts:
-  - Hi,I'm howiefh.
+  - I'm qilicun.
 
 # display updated
 display_updated: true

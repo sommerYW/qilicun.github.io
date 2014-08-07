@@ -8,6 +8,11 @@ rss: /atom.xml
 excerpt_link: Read More
 fancybox: true
 
+# Toc
+toc:
+  article: true
+  asie: true
+
 # Sidebar
 sidebar: right
 widgets:
@@ -25,3 +30,5 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+duoshuo_shortname: qilicun

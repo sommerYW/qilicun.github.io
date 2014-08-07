@@ -7,7 +7,7 @@ title: 子不语
 subtitle: 子不语怪力乱神
 description: qilicun's blog
 author: qilicun
-email: qilicun@outlook.com
+email: qilicun@me.com
 language: zh-CN
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -48,7 +48,7 @@ tag_map:
 ## 1: Disable pagination
 ## 0: Fully Disable
 archive: 2
-category: 2
+category: 1
 tag: 2
 
 # Server
@@ -79,8 +79,9 @@ disqus_shortname:
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 #theme: landscape-plus
-theme: light-origin
+#theme: light-origin
 #theme: landscape-f
+theme: landscape-f
 exclude_generator:
 
 plugins:
