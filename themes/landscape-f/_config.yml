@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
 rss: /atom.xml
-github: https://github.com/howiefh
+github: https://github.com/qilicun
 
 # Content
 excerpt_link: Read More
@@ -12,13 +12,12 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- about_me
 - category
-- tag
 - tagcloud
 - archive
 - recent_posts
 - duoshuo_recent_comments
+- tag
 
 # Miscellaneous
 google_analytics:
@@ -30,7 +29,7 @@ fb_app_id:
 
 # Toc
 toc:
-  article: true   ## show contents in article.
+  article: false   ## show contents in article.
   aside: true     ## show contents in aside.
 # Scroll to top
 go_top: true
