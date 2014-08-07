@@ -3,7 +3,6 @@ id: 200
 date: 2011-04-08 05:10:00
 tags: 
 categories: 
-- Linux
 - ubuntu
 ---
 
