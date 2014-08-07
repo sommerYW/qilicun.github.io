@@ -1,0 +1,57 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+github: https://github.com/howiefh
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+- links
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+# Toc
+toc:
+  article: true   ## show contents in article.
+  aside: true     ## show contents in aside.
+# Scroll to top
+go_top: true
+
+# duoshuo
+duoshuo_shortname:
+
+# baidu share
+baidushare: true
+
+# blogroll
+links:
+- name: 404 page
+  link: http://yibo.iyiyun.com/js/yibo404/key/1
+
+# about me
+about_me:
+  title: ABOUT ME
+  gravatar: a@abc.com
+  avatar: /images/github.jpg
+  texts:
+  - Hi,I'm howiefh.
+
+# display updated
+display_updated: true

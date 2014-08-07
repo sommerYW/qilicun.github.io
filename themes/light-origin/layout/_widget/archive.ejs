@@ -1,0 +1,8 @@
+<% if (site.posts.length){ %>
+  <div class="widget archives">
+    <h3 class="title">文章存档</h3>
+    <div class="entry">
+      <%- list_archives (site.posts, {} ) %>
+    </div>
+  </div>
+<% } %>

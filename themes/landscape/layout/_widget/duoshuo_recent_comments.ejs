@@ -1,0 +1,21 @@
+<% if (theme.duoshuo_shortname){ %>
+<div class="widget-wrap">
+  <h3 class="widget-title"><%= __('duoshuo_recent_comments') %></h3>
+  <ul class="widget ds-recent-comments" data-num-items="5" data-show-avatars="0" data-show-title="1" data-show-time="1"></ul>
+</div>
+<!-- 需要多说的公用代码 -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"qilicun"};
+        (function() {
+                var ds = document.createElement('script');
+                        ds.type = 'text/javascript';ds.async = true;
+                                ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                                        ds.charset = 'UTF-8';
+                                                (document.getElementsByTagName('head')[0] 
+                                                         || document.getElementsByTagName('body')[0]).appendChild(ds);
+                                                            })();
+                                                                </script>
+                                                                <!-- 多说公共JS代码 end -->
+
+<% } %>
