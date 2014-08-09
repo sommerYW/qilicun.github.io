@@ -18,6 +18,7 @@ widgets:
 - recent_posts
 - duoshuo_recent_comments
 - links
+- weibo
 - tag
 
 # Miscellaneous
@@ -52,7 +53,7 @@ links:
 about_me:
   title: ABOUT ME
   gravatar: a@abc.com
-  avatar: /images/github.jpg
+  avatar: 
   texts:
   - I'm qilicun.
 
